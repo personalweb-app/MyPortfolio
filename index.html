@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="container nav-container">
+    <img src="images/logo.jpg" alt="Logo" class="logo" />
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section id="home" class="section home-section">
+  <div class="container home-container" data-aos="fade-up">
+    <div class="home-text">
+      <h2>Hi</h2>
+      <h1>
+        <span style="margin-right: 6px;">I'm</span><span id="typewriter-name"></span>
+      </h1>
+      <p>A dedicated Web Developer and Designer committed to creating modern, responsive, and user-centered digital experiences. I specialize in transforming ideas into visually compelling and functional web solutions that deliver meaningful impact.</p>
+      <div class="contact-info">
+        <p>📞 (+63) 9539523055</p>
+        <p>✉️ norhankuyab@gmail.com</p>
+        <p>📍 Pebpolaoan, Carmen, North Cotabato</p>
+      </div>
+      <div class="home-buttons">
+        <a href="resume/myresume.pdf" target="_blank" class="btn green">View Resume</a>
+      </div>
+    </div>
+    <div class="home-image" data-aos="zoom-in">
+      <div class="hexagon">
+        <img src="images/khuyab.jpg" alt="Norhan D Kuyab">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section about-section">
+  <div class="container about-container">
+    <div class="about-left" data-aos="fade-right">
+      <h2>About Me</h2>
+      <p class="subtitle">✨ Transforming ideas into digital experiences ✨</p>
+      <h1>Hello, I'm <span id="about-typewriter-name"></span></h1>
+      <p class="about-text">
+       I’m a dedicated Web Developer and Designer focused on crafting modern, responsive, and user-centered digital solutions. My work blends creativity and functionality to transform ideas into impactful web experiences that engage users and elevate brands.
+      </p>
+      <div class="about-buttons">
+        <a href="resume/myresume.pdf" download class="btn purple">Download</a>
+        <a href="#projects" class="btn outline">View Projects</a>
+      </div>
+    </div>
+    <div class="about-right" data-aos="fade-left">
+      <div class="profile-circle">
+        <img src="certificates/my.jpg" alt="Norhan D Kuyab">
+      </div>
+    </div>
+  </div>
+
+<div class="about-stats">
+  <div class="stat-card" data-aos="zoom-in">
+    <img src="pro/web.png" alt="Project Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>10</h3>
+    <p>Total website Projects</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="pro/system.png" alt="Certificate Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>5</h3>
+    <p>Total System Develop</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="images/logo.jpg" alt="Certificate Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>4</h3>
+    <p>Total T-shirts Layout</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="images/logo.jpg" alt="Certificate Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>12</h3>
+    <p>Total design Brochures</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="pro/cert.png" alt="Certificate Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>4</h3>
+    <p>Certificates</p>
+  </div>
+
+  <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+    <img src="pro/ex.png" alt="Experience Icon" style="width: 50px; margin-bottom: 10px;">
+    <h3>3</h3>
+    <p>Years of Experience</p>
+  </div>
+</div>
+</section>
+
+<section id="services" class="section services-section">
+  <div class="container">
+    <h2 data-aos="fade-up">My Services</h2>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="100">
+   I offer tailored web solutions that blend functionality, aesthetics, and innovation to meet client goals effectively.
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card" tabindex="0" data-aos="fade-up">
+        <img src="service/web.png" alt="Web Development Icon" class="service-icon">
+        <h3>Web Development</h3>
+        <p>I develop responsive, secure, and dynamic websites using PHP, MySQL, HTML5, CSS3, JavaScript, and Bootstrap. I ensure functionality and scalability for business or academic needs.</p>
+      </div>
+
+      <div class="service-card" tabindex="0" data-aos="fade-up" data-aos-delay="100">
+        <img src="service/app.png" alt="UI/UX Design Icon" class="service-icon">
+        <h3>UI/UX Design</h3>
+        <p>I craft modern and user-friendly interfaces using design tools like Photoshop. My layouts prioritize clarity, responsiveness, and accessibility for an excellent user experience.</p>
+      </div>
+
+      <div class="service-card" tabindex="0" data-aos="fade-up" data-aos-delay="200">
+        <img src="service/gra.png" alt="Graphic Design Icon" class="service-icon">
+        <h3>Graphic & Print Design</h3>
+        <p>I design tarpaulins, t-shirts, and marketing materials with a creative approach. My works emphasize branding, visual balance, and print-ready quality.</p>
+      </div>
+
+      <div class="service-card" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+        <img src="service/sys.png" alt="System Development Icon" class="service-icon">
+        <h3>System Development</h3>
+        <p>I build systems like document request platforms tailored for institutional use. These solutions are database-driven, secure, and user-friendly with administrative controls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <h2 data-aos="fade-up">Project Showcase</h2>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="100">
+      A showcase of my professional growth through hands-on projects, recognized certifications, and continuously refined technical skills.
+    </p>
+
+<!-- 🔹 Tabs Header -->
+<div class="tabs" data-aos="fade-up" data-aos-delay="200">
+  <button class="tab active" data-tab="system-tab">Web App Project</button>
+  <button class="tab" data-tab="projects-tab">Design Project</button>
+  <button class="tab" data-tab="certificates-tab">My Certificates</button>
+  <button class="tab" data-tab="techstack-tab">My Skills</button>
+</div>
+
+<!-- 🔹 Image Slider Modal -->
+<div id="imageSliderModal" class="image-slider-modal hidden">
+  <span class="close-button" onclick="closeImageSlider()">← Back</span>
+  <div class="slider">
+    <div class="slides" id="sliderImages"></div>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+</div>
+
+<!-- 🔹 Tabs Content -->
+<div class="tabs-content">
+
+  <!-- ✅ SYSTEM PROJECTS TAB -->
+  <div class="tab-content active" id="system-tab">
+    <div class="card" data-aos="fade-up">
+      <img src="/capstone/capstone1.png" alt="System Project 1" class="zoomable"
+           onclick="openImageSlider(['/capstone/capstone1.png', '/capstone/capstone2.png', '/capstone/capstone3.png', '/capstone/capstone4.png', '/capstone/capstone5.png', '/capstone/capstone6.png',])">
+      <h3>Integrated Online Document Requesting System</h3>
+      <p>For COTABATO FOUNDATION COLLEGE OF SCIENCE IN TECHNOLOGY Registrar Office</p>
+    <div class="card-buttons" style="display: flex; justify-content: space-between; gap: 10px;">
+  <!-- Details Button -->
+  <button class="btn small outline"
+      onclick="openProjectModal(
+        'Integrated Online Document Requesting System', 
+        'An advanced web-based platform developed for the COTABATO FOUNDATION COLLEGE OF SCIENCE IN TECHNOLOGY Registrar’s Office, designed to streamline document requests and ensure efficient, real-time tracking. Built with PHP/MySQL, it features automated request validation, secure data management, and a user-friendly interface for both students and administrators.'
+      )">
+    Details
+  </button>
+  <!-- Open Project Button -->
+  <a href="https://cfcstiodrs.com/" target="_blank" class="btn small outline">
+    Open Project
+  </a>
+</div>
+</div>
+   
+
+    <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <img src="capstone/system1.png" alt="System Project 2" class="zoomable"
+           onclick="openImageSlider(['capstone/system1.png', 'capstone/system2.png', 'capstone/system3.png'])">
+      <h3>MOTORIZED TRICYCLE OPERATORS’ PERMIT VIA ONLINE APPLICATION</h3>
+      <p>Automated inventory tracking and stock monitoring.</p>
+         <div class="card-buttons" style="display: flex; justify-content: space-between; gap: 10px;">
+  <!-- Details Button -->
+  <button class="btn small outline"
+      onclick="openProjectModal('Motorized Tricycle Operators’ Permit via Online Application', 'A web-based system for processing motorized tricycle operators’ permit applications, featuring user registration, document uploads, and real-time application tracking.')">
+    Details
+  </button>
+  <!-- Open Project Button -->
+  <a href="https://pikitmotorcyclepermit.com/home/client/" target="_blank" class="btn small outline">
+    Open Project
+  </a>
+      </div>
+    </div>
+
+
+   <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <img src="capstone/web1.png" alt="System Project 2" class="zoomable"
+           onclick="openImageSlider(['capstone/web1.png', 'capstone/web2.png', 'capstone/web3.png'])">
+      <h3>Bachelor of Science in Information Technology Portal</h3>
+      <p>Portal website for student project BSIT student in Pikit External Campus.</p>
+         <div class="card-buttons" style="display: flex; justify-content: space-between; gap: 10px;">
+  <!-- Details Button -->
+  <button class="btn small outline"
+      onclick="openProjectModal('Motorized Tricycle Operators’ Permit via Online Application', 'A web-based system for processing motorized tricycle operators’ permit applications, featuring user registration, document uploads, and real-time application tracking.')">
+    Details
+  </button>
+  <!-- Open Project Button -->
+  <a href="https://khuyab.github.io/pikitcampuscapstonrproject.github.io/" target="_blank" class="btn small outline">
+    Open Project
+  </a>
+      </div>
+    </div>
+
+
+<div class="card" data-aos="fade-up" data-aos-delay="100">
+      <img src="capstone/n1.png" alt="System Project 2" class="zoomable"
+           onclick="openImageSlider(['capstone/n1.png', 'capstone/n2.png', 'capstone/n3.png'])">
+      <h3>Njay foods Spot Web App</h3>
+      <p>Online Food Ordering and Delivery Services </p>
+         <div class="card-buttons" style="display: flex; justify-content: space-between; gap: 10px;">
+  <!-- Details Button -->
+  <button class="btn small outline"
+      onclick="openProjectModal('Njay foods Spot Web App', 'A web-based portal developed for the Njay foods project, aimed at providing an online platform for food ordering and delivery services. Built with modern web technologies, it features a user-friendly interface and seamless navigation.')">
+    Details
+  </button>
+  <!-- Open Project Button -->
+  <a href="https://norhan-gwapo-kuyab-1.jimdosite.com/" target="_blank" class="btn small outline">
+    Open Project
+  </a>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+  <!-- ✅ PROJECTS TAB -->
+  <div class="tab-content" id="projects-tab">
+    <div class="card" data-aos="fade-up">
+      <img src="tshirts/nkn.png" alt="Project 1" class="zoomable"
+           onclick="openImageSlider(['tshirts/nkn.png', 'tshirts/newm.jpg', 'tshirts/tech.jpg', 'tshirts/tnk.jpg'])">
+      <h3>My Tshirts Design</h3>
+      <p>Creative wearable branding concepts.</p>
+      <div class="card-buttons">
+        <a href="javascript:void(0);" class="btn small outline"
+           onclick="openProjectModal('My Tshirts Design', 'A collection of original t-shirt designs using Adobe Photoshop and Illustrator. These designs were created for branding purposes, with a strong emphasis on layout balance, color harmony, and modern appeal.')">
+           Details
+        </a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <img src="capstone/brow.png" alt="Project 2" class="zoomable"
+           onclick="openImageSlider(['capstone/back.png', 'capstone/Front.png', 'capstone/standee.jpg', 'capstone/bro2.jpg', 'capstone/bro1.jpg',])">
+      <h3>Brochure Design</h3>
+      <p>For CFCST Registrar Office</p>
+      <div class="card-buttons">
+        <a href="javascript:void(0);" class="btn small outline"
+           onclick="openProjectModal('Brochure Design', 'A document request and tracking system designed for CFCST Registrar Office. Features include real-time monitoring, automated request validation, and secure data handling, built with PHP and MySQL.')">
+           Details
+        </a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up" data-aos-delay="200">
+      <img src="images/f.png" alt="Project 3" class="zoomable"
+           onclick="openImageSlider(['application/1.png', 'application/2.png', 'application/3.png','application/4.png'])">
+      <h3>Prototype Application</h3>
+      <p>Presentation-ready mobile app interface.</p>
+      <div class="card-buttons">
+        <a href="javascript:void(0);" class="btn small outline"
+           onclick="openProjectModal('Prototype Application', 'A mobile app prototype developed for academic demos. It features streamlined navigation, responsive layouts, and modern UI principles, showcasing interactive school-related modules.')">
+           Details
+        </a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up" data-aos-delay="300">
+      <img src="images/ps.png" alt="Project 4" class="zoomable"
+           onclick="openImageSlider(['images/ps.png', 'tshirts/po.jpg', 'images/abad.jpg'])">
+      <h3>Tarpaulin Design</h3>
+      <p>Layout projects using Photoshop</p>
+      <div class="card-buttons">
+        <a href="javascript:void(0);" class="btn small outline"
+           onclick="openProjectModal('Tarpaulin Design', 'Professional tarpaulin layouts for events, made with Adobe Photoshop. Designed with attention to typographic clarity, visual impact, and print quality.')">
+           Details
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ CERTIFICATES TAB -->
+  <div class="tab-content" id="certificates-tab">
+    <div class="card" data-aos="zoom-in" onclick="openCertificateModal('certificates/1.png', 'CCNA Certificate', 'Cisco Certified Network Associate – foundational knowledge in networking and IT infrastructure.')">
+      <img src="certificates/1.png" alt="Certificate 1" class="zoomable">
+      <h3>CCNA Certificate</h3>
+      <p>Demonstrates foundational knowledge in networking and IT infrastructure, certified by Cisco.</p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="100" onclick="openCertificateModal('certificates/2.png', 'Ethical Hacking Certificate', 'Hands-on experience in vulnerability assessment, penetration testing, and SQL injection techniques.')">
+      <img src="certificates/2.png" alt="Certificate 2" class="zoomable">
+      <h3>Ethical Hacking Certificate</h3>
+      <p>Provides hands-on experience in vulnerability assessment, penetration testing, and SQL injection prevention.</p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="200" onclick="openCertificateModal('certificates/3.jpg', 'IoT Certificate', 'Focuses on practical applications and deployment of Internet of Things technology.')">
+      <img src="certificates/3.jpg" alt="Certificate 3" class="zoomable">
+      <h3>IoT Certificate</h3>
+      <p>Covers practical implementation and deployment of Internet of Things (IoT) technologies.</p>
+    </div>
+
+    <div class="card" data-aos="zoom-in" data-aos-delay="300" onclick="openCertificateModal('certificates/4.jpg', 'Certificate of Participation', 'Recognizes participation in workshops and technical training related to a capstone project.')">
+      <img src="certificates/4.jpg" alt="Certificate 4" class="zoomable">
+      <h3>Certificate of Participation</h3>
+      <p>Recognizes active participation in workshops and technical training for a capstone project at CFCST.</p>
+    </div>
+  </div>
+
+  <!-- Techstack Tab -->
+<div class="tab-content" id="techstack-tab">
+  <div class="card" data-aos="fade-up">
+    <img src="icon/OIP.webp" alt="PHP Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>PHP & MySQL</h3>
+    <p>I am proficient in developing secure and scalable web applications using PHP in conjunction with MySQL. I can effectively handle backend logic, data processing, and database integration for data-driven systems.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="100">
+    <img src="icon/JS.png" alt="JavaScript Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>JavaScript</h3>
+    <p>I am capable of implementing interactive and dynamic web functionalities using JavaScript. I utilize it to enhance user experience through DOM manipulation, event handling, and responsive client-side scripting.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="200">
+    <img src="icon/HT.png" alt="HTML5 Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>HTML5</h3>
+    <p>I have the ability to create well-structured and semantic web content using HTML5. I apply best practices to ensure clean markup and responsive layouts across all screen sizes.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="300">
+    <img src="icon/CSS.png" alt="CSS3 Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>CSS3</h3>
+    <p>I am skilled in styling web interfaces using CSS3 to deliver visually engaging and responsive designs. I can implement animations, layout systems like Flexbox and Grid, and custom UI styling efficiently.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="300">
+    <img src="icon/PY.png" alt="Python Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Python</h3>
+    <p>I utilize Python for various tasks such as automation, backend development, and data analysis. With its readable syntax and rich libraries, I am able to deliver clean, efficient, and scalable solutions.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="300">
+    <img src="icon/MYS.png" alt="MySQL Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>MySQL</h3>
+    <p>I can effectively design, manage, and query relational databases using MySQL. I ensure data integrity and performance optimization for applications that rely heavily on structured data storage.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="400">
+    <img src="icon/boot.webp" alt="Bootstrap Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>Bootstrap</h3>
+    <p>I am experienced in leveraging Bootstrap to build responsive, mobile-first websites. I utilize its predefined components and grid system to accelerate front-end development while maintaining visual consistency.</p>
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="500">
+    <img src="icon/git.png" alt="GitHub Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-bottom: 10px;">
+    <h3>GitHub</h3>
+    <p>I use GitHub as a version control and collaboration platform to manage code repositories. I am proficient in branching strategies, pull requests, and collaborative workflows essential for team-based development.</p>
+  </div>
+</div>
+</div>
+
+
+<!-- ✅ MODALS -->
+<div id="projectModal" class="project-modal hidden">
+  <div class="modal-content-box">
+    <span class="close-btn" onclick="closeProjectModal()">× Exit</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+
+<div id="certificateModal" class="project-modal hidden">
+  <div class="modal-content-box">
+    <span class="close-btn" onclick="closeCertificateModal()">× Exit</span>
+    <img id="certificateImage" src="" alt="Certificate" style="max-width: 100%; height: auto; margin-bottom: 1rem;">
+    <h3 id="certificateTitle"></h3>
+    <p id="certificateDescription"></p>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- ✅ CONTACT SECTION -->
+<section id="contact" class="section contact-section">
+  <div class="contact-wrapper">
+    <div class="contact-image" data-aos="fade-right">
+      <img src="images/contact.jpg" alt="Contact Me">
+    </div>
+    <div class="form-container" data-aos="fade-left">
+      <div class="form-title">Contact Me</div>
+      <div class="form-subtitle">For project inquiries, collaborations, or professional opportunities, please don’t hesitate to contact me.</div>
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="ebe3b47d-99bc-4530-98d6-b9e61a0bb743">
+        <div class="input-group">
+          <i class="icon fa fa-user"></i>
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+          <i class="icon fa fa-envelope"></i>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="input-group">
+          <i class="icon fa fa-comment"></i>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100089166460312" target="_blank"><img src="images/face.png" alt="Facebook"></a>
+        <a href="https://mail.google.com/mail/u/0/?hl=en#inbox" target="_blank"><img src="images/gmail.png" alt="Gmail"></a>
+        <a href="https://www.tiktok.com/@norhan.kuyab" target="_blank"><img src="images/tiktok.png" alt="Tiktok"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2025 Norhan D Kuyab. All rights reserved.</p>
+</footer>
+
+<!-- Script Files -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

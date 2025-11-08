@@ -53,12 +53,9 @@ tabs.forEach(tab => {
     if (event.target === modal) {
       closeImageModal();
     }
-  }
+  };
 
-
-  
-
-    const hamburger = document.getElementById('hamburger');
+  const hamburger = document.getElementById('hamburger');
   const navMenu = document.getElementById('navMenu');
   const navLinks = navMenu.querySelectorAll('a');
 
@@ -87,15 +84,6 @@ tabs.forEach(tab => {
   function closeProjectModal() {
     document.getElementById("projectModal").classList.add("hidden");
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -253,3 +241,12 @@ function closeCertificateModal() {
     animateAbout();
   });
 
+
+    document.querySelectorAll('.timeline-content').forEach(content => {
+    content.addEventListener('click', () => {
+      document.querySelectorAll('.timeline-item').forEach(item => {
+        item.classList.remove('active');
+      });
+      content.parentElement.classList.add('active');
+    });
+  });

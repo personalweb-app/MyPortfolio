@@ -226,6 +226,8 @@ footer {
 
 
 
+
+
 .about-section {
   padding: 120px 0 80px 0;
   color: #fff;
@@ -367,6 +369,158 @@ footer {
   margin-top: 12px;
   font-size: 1.1rem;
   color: #b2bec3;
+}
+
+
+
+.experience-section { background: linear-gradient(to bottom right, #302b63, #24243e); border-radius: 16px; padding: 25px; }
+.section-title {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.section-title {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 18px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #6c5ce7, #a29bfe);
+  opacity: 0.6;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideUp 0.6s forwards;
+}
+
+/* Delay animation per item */
+.timeline-item:nth-child(1) { animation-delay: 0.1s; }
+.timeline-item:nth-child(2) { animation-delay: 0.2s; }
+.timeline-item:nth-child(3) { animation-delay: 0.3s; }
+.timeline-item:nth-child(4) { animation-delay: 0.4s; }
+.timeline-item:nth-child(5) { animation-delay: 0.5s; }
+.timeline-item:nth-child(6) { animation-delay: 0.6s; }
+.timeline-item:nth-child(7) { animation-delay: 0.7s; }
+.timeline-item:nth-child(8) { animation-delay: 0.8s; }
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #6c5ce7;
+  margin-right: 20px;
+  margin-left: 9px;
+  flex-shrink: 0;
+  position: relative;
+  top: 4px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 6px rgba(108, 92, 231, 0.6);
+}
+
+/* Neon glow when active */
+.timeline-item.active .timeline-dot {
+  background: #a29bfe;
+  box-shadow:
+    0 0 8px #a29bfe,
+    0 0 16px #a29bfe,
+    0 0 30px rgba(162, 155, 254, 0.8);
+  animation: pulseGlow 1.8s infinite alternate;
+}
+
+/* Glow on hover */
+.timeline-item:hover .timeline-dot {
+  box-shadow:
+    0 0 8px #6c5ce7,
+    0 0 18px #6c5ce7,
+    0 0 28px rgba(108, 92, 231, 0.6);
+}
+
+/* Neon pulsing animation */
+@keyframes pulseGlow {
+  from {
+    box-shadow:
+      0 0 8px #a29bfe,
+      0 0 16px #a29bfe,
+      0 0 30px rgba(162, 155, 254, 0.8);
+  }
+  to {
+    box-shadow:
+      0 0 4px #a29bfe,
+      0 0 10px #a29bfe,
+      0 0 16px rgba(162, 155, 254, 0.6);
+  }
+}
+
+.timeline-content {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px 16px;
+  width: 100%;
+  transition: all 0.25s ease;
+}
+
+/* Card hover */
+.timeline-content:hover {
+  transform: translateX(5px);
+  border-color: #6c5ce7;
+}
+
+/* Card animation when active */
+.timeline-item.active .timeline-content {
+  transform: scale(1.03);
+  border-color: #a29bfe;
+  box-shadow: 0 0 15px rgba(162, 155, 254, 0.3);
+}
+
+.timeline-content h3 {
+  color: #fff;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.timeline-content p {
+  color: #b2bec3;
+  font-size: 0.9rem;
+  margin: 4px 0 0;
+}
+
+.timeline-year {
+  color: #a29bfe;
+  font-weight: 600;
+  font-size: 0.85rem;
+  float: right;
+  margin-top: -20px;
 }
 
 
@@ -1183,6 +1337,8 @@ footer {
 
 
 
+
+
 #about-typewriter-name {
   display: inline-block;
   animation: blink 0.75s step-end infinite;
@@ -1230,6 +1386,9 @@ footer {
   margin: 0 auto 10px;
   border-radius: 50%;
 }
+
+
+
 
 
 
